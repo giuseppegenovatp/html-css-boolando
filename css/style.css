@@ -103,6 +103,8 @@ nav.container ul > li > a  {
 
 .container-product {
     width: calc(100% / 3 - 7px);
+    margin-bottom: 50px;
+
 }
 
 .container_price {
@@ -112,14 +114,41 @@ nav.container ul > li > a  {
 
 .container-product img {
     width: 100%;
-    background-position: cover;
 }
 
 .text-product {
     display: flex;
     flex-direction: column;
 }
+
+.box_img {
+    position: relative;
+}
 /* /INIO MAIN PAGINA */
+
+.offer {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 40px;
+}
+
+
+.offer > div {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.sconto {
+    background-color:red;
+}
+
+.sostenibilita {
+    background-color:green;
+}
+
 
 
 /* INIZIO FOOTER PAGINA */
