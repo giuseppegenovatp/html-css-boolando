@@ -12,6 +12,11 @@ body {
 
 a {
     color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
@@ -25,6 +30,7 @@ main.container {
     margin-top: 60px;
     gap: 10px;
 }
+
 
 .text-product span:not(:last-of-type) {
     display: block;
@@ -69,7 +75,12 @@ div.logo img {
 header {
     background-color:#ff6900;
     color: #ffffff;
+    box-shadow:0px 2px 20px 0px #1a1a1a;
     height: 70px;
+    max-width: 100%;
+    position:sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav {
@@ -89,7 +100,6 @@ nav.container ul  {
 }
 
 nav.container ul > li > a  {
-    text-decoration: none;
     text-transform: capitalize;
     font-weight: bold;
     font-size: 14px;
@@ -124,6 +134,21 @@ nav.container ul > li > a  {
 .box_img {
     position: relative;
 }
+
+
+.modello_2 {
+    position:absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.box_img:hover .modello_1 {
+    opacity: -1;
+}
+.box_img:hover .modello_hover {
+    opacity: 2;
+}
+
 /* /INIO MAIN PAGINA */
 
 .offer {
@@ -154,5 +179,25 @@ nav.container ul > li > a  {
 /* INIZIO FOOTER PAGINA */
 footer {
     background-color:#1a1a1a ;
+    color: white;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-flex h4 {
+    padding-bottom: 15px;
+}
+
+.social.gap-10 {
+    justify-content: space-between
+}
+
+ul.gap-10 {
+    font-size: 12px;
 }
 /* /INIZIO FOOTER PAGINA */
