@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 /* COMMON */
@@ -15,6 +18,18 @@ a {
     width: 70%;
     margin: 0 auto;
 }
+
+main.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.text-product span:not(:last-of-type) {
+    /* display: block; */
+}
+
 
 .gap-10 {
     display: flex;
@@ -62,4 +77,18 @@ nav.container ul > li > a  {
 
 /* INIO GRIGLIA PAGINA */
 
+
+.container-product {
+    width: calc(100% / 3 - 7px);
+}
+
+.container-product img {
+    width: 100%;
+    background-position: cover;
+}
+
+.text-product {
+    display: flex;
+    flex-direction: column;
+}
 /* /INIO MAIN PAGINA */
