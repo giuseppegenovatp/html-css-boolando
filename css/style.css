@@ -135,20 +135,15 @@ nav.container ul > li > a  {
     position: relative;
 }
 
-
-.modello_2 {
+.img_hover {
     position:absolute;
     left: 0;
     z-index: -1;
 }
 
-.box_img:hover .modello_1 {
+.box_img:hover .card_img {
     opacity: -1;
 }
-.box_img:hover .modello_hover {
-    opacity: 2;
-}
-
 /* /INIO MAIN PAGINA */
 
 .offer {
