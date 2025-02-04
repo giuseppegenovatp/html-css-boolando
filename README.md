@@ -5,6 +5,6 @@ Questo repository contiene un esercizio di pratica sui layout CSS, in particolar
 ## Tecnologie Utilizzate
 
 - **HTML5**
-- **CSS3** (con focus su `position`, `flexbox`, `grid`)
+- **CSS3** (con focus su `position`, `flexbox`)
 
 Questo esercizio è stato utile per approfondire le conoscenze sui layout CSS e migliorare la capacità di riprodurre design in modo accurato. Ogni feedback è ben accetto!
