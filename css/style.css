@@ -27,9 +27,8 @@ main.container {
 }
 
 .text-product span:not(:last-of-type) {
-    /* display: block; */
+    display: block;
 }
-
 
 .gap-10 {
     display: flex;
@@ -39,6 +38,31 @@ main.container {
 div.logo img {
     width: 150px;
 }
+
+/* STYLE TEXT CARD */
+    .brand_product {
+        font-size: 12px;
+    }
+
+    .title_product {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .offer_price {
+        color: red;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .first_price{
+        color: black;
+        font-size: 14px;
+        text-decoration:line-through;
+    }
+
+/* /STYLE TEXT CARD */
 
 /* HEADER STYLE */
 
@@ -77,9 +101,13 @@ nav.container ul > li > a  {
 
 /* INIO GRIGLIA PAGINA */
 
-
 .container-product {
     width: calc(100% / 3 - 7px);
+}
+
+.container_price {
+    display: flex;
+    flex-direction: row;
 }
 
 .container-product img {
