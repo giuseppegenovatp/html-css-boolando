@@ -143,6 +143,7 @@ nav.container ul > li > a  {
 
 .box_img:hover .card_img {
     opacity: -1;
+    transition: opacity 0.3s; 
 }
 
 /* /INIO MAIN PAGINA */
